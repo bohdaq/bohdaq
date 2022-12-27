@@ -8,7 +8,7 @@ Here is the list of stuff, I've done so far:
 - 🤔 [url-build-parse](https://github.com/bohdaq/url-build-parse/releases) - parse URL from string as well as construct URL from parts. 
 - 💬 [rust-web-server](https://github.com/bohdaq/rust-web-server/releases) - static content web-server written in Rust 
 - 📫 [rust-tls-server](https://github.com/bohdaq/rust-tls-server/releases) - web server for handling HTTPS using TLS 
-- 😄 [http-to-https-letsencrypt](https://github.com/bohdaq/rust-http-to-https-letsencrypt-acme/releases) - HTTP server with default redirect to HTTPS and support for Let'sEncrypt Automatic Certificate Management Environment using HTTP-01 challenge 
+- 😄 [http-to-https-letsencrypt](https://github.com/bohdaq/http-to-https-letsencrypt/releases) - HTTP server with default redirect to HTTPS and support for Let'sEncrypt Automatic Certificate Management Environment using HTTP-01 challenge 
 - ⚡ [steam-webapi-rust-sdk](https://github.com/bohdaq/steam-webapi-rust-sdk/releases) - set of utility functions to access Steam Web API. 
 
 <!--
