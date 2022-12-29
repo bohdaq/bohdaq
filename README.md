@@ -11,6 +11,7 @@ Here is the list of stuff, I've done so far:
 - 😄 [http-to-https-letsencrypt](https://github.com/bohdaq/http-to-https-letsencrypt/releases) - HTTP server with default redirect to HTTPS and support for Let'sEncrypt Automatic Certificate Management Environment using HTTP-01 challenge 
 - ⚡ [steam-webapi-rust-sdk](https://github.com/bohdaq/steam-webapi-rust-sdk/releases) - set of utility functions to access Steam Web API. 
 
+To start discussion on any topic, visit 🔥[this link](https://github.com/bohdaq/discussions/discussions)🔥.
 <!--
 **bohdaq/bohdaq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
