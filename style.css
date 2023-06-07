@@ -1,0 +1,17 @@
+/*@media screen and (prefers-color-scheme: dark){*/
+    body {
+        font-size: 16px;
+        background-color: black;
+    }
+    h1 {
+        font-family: Metropolis, sans-serif;
+        font-size: 3.5rem;
+        color: lightgray;
+    }
+
+    a {
+        font-family: Metropolis, sans-serif;
+        font-size: 3.5rem;
+        color: #388E3C;
+    }
+/*}*/
