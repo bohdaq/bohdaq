@@ -81,7 +81,6 @@
     .features-block .item {
         width: 100%;
         background-color: var(--dark-primary-color);
-        height: 100px;
         color: black;
         font-size: 2rem;
         margin: 1rem 0;
