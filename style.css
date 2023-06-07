@@ -1,6 +1,12 @@
 :root {
     --accent-color: #D32F2F;
     --light-primary-color: #FFCDD2;
+    --dark-primary-color: #D32F2F;
+    --primary-color: #F44336;
+    --text-icons: #FFFFFF;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
 }
 
 /*@media screen and (prefers-color-scheme: dark){*/
@@ -66,5 +72,23 @@
     .hero-text h2 {
         font-size: 1.5rem;
         color: var(--light-primary-color);
+    }
+
+    .features-block {
+        display: flex;
+    }
+
+    .features-block .item {
+        width: 100%;
+        background-color: var(--dark-primary-color);
+        height: 100px;
+        color: black;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    .features-block .item.margin {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 /*}*/
