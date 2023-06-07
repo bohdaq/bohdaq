@@ -18,4 +18,38 @@
         font-size: 3.5rem;
         color: var(--accent-color);
     }
+
+    .container {
+        margin: 0 auto;
+        max-width: 768px;
+    }
+
+    .header-container {
+        display: flex;
+    }
+
+    .flex {
+        flex: 1;
+    }
+
+    .translate-icon {
+        height: 50px;
+        padding: 10px;
+        background-color: var(--accent-color);
+    }
+
+    .logo-icon {
+        height: 64px;
+        padding: 10px;
+        background-color: var(--accent-color);
+    }
+
+    .hero-block {
+        margin: 10px 0;
+        background: #DA4453;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 100px;
+        width: 100%;
+    }
 /*}*/
