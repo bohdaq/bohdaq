@@ -1,5 +1,6 @@
 :root {
     --accent-color: #D32F2F;
+    --light-primary-color: #FFCDD2;
 }
 
 /*@media screen and (prefers-color-scheme: dark){*/
@@ -21,7 +22,7 @@
 
     .container {
         margin: 0 auto;
-        max-width: 768px;
+        max-width: 1024px;
     }
 
     .header-container {
@@ -39,7 +40,8 @@
     }
 
     .logo-icon {
-        height: 64px;
+        /*height: 64px;*/
+        font-size: 2rem;
         padding: 10px;
         background-color: var(--accent-color);
     }
@@ -49,7 +51,20 @@
         background: #DA4453;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to left, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to left, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        height: 100px;
+        /*min-height: 100px;*/
         width: 100%;
+    }
+
+    .hero-text {
+        display: block;
+        margin: 2rem 0;
+        font-size: 3rem;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+        color: var(--light-primary-color);
     }
 /*}*/
