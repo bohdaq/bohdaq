@@ -148,6 +148,15 @@ a {
     margin: 0 auto;
 }
 
+.download-block .item .image-container {
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+.download-block .item .image-container :hover {
+    cursor: pointer;
+}
 
 .download-block .item .image-container h4 {
     display: inline;
