@@ -40,16 +40,20 @@
     }
 
     .translate-icon {
-        height: 50px;
+        height: 40px;
         padding: 10px;
-        background-color: var(--accent-color);
+    }
+
+    .feature-icon {
+        height: 40px;
+        padding: 10px;
     }
 
     .logo-icon {
         /*height: 64px;*/
         font-size: 2rem;
         padding: 10px;
-        background-color: var(--accent-color);
+        color: white;
     }
 
     .hero-block {
@@ -80,8 +84,7 @@
 
     .features-block .item {
         width: 100%;
-        background-color: var(--dark-primary-color);
-        color: black;
+        color: var(--text-icons);
         font-size: 2rem;
         margin: 1rem 0;
     }
@@ -90,4 +93,27 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+
+.features-block .item h4 {
+    font-size: 1.5rem;
+}
+
+.features-block .item p {
+    font-size: 1rem;
+}
+
+.features-block .item .feature-icon {
+    margin: 0 auto;
+}
+
+.features-block .item .image-container {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    color: var(--text-icons);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
 /*}*/
