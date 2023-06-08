@@ -99,6 +99,7 @@ a {
 .features-block .item h4 {
     font-size: 1.5rem;
     text-align: center;
+    margin: 1rem;
 }
 
 .features-block .item p {
