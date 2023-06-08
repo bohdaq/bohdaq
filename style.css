@@ -119,4 +119,42 @@ a {
     padding-top: 1rem;
 }
 
+.download-block {
+    display: flex;
+}
+
+.download-block .item {
+    width: 100%;
+    color: var(--text-icons);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.download-block .item.margin {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.download-block .item h4 {
+    font-size: 1.5rem;
+}
+
+.download-block .item p {
+    font-size: 1rem;
+}
+
+.download-block .item .feature-icon {
+    float: left;
+    margin: 0 auto;
+}
+
+
+.download-block .item .image-container h4 {
+    display: inline;
+}
+
+.download-block .item .image-container p {
+    padding-left: .4rem;
+}
+
 /*}*/
