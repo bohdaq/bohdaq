@@ -88,6 +88,7 @@ a {
     color: var(--text-icons);
     font-size: 2rem;
     margin: 1rem 0;
+    padding: 0 1rem;
 }
 
 .features-block .item.margin {
@@ -97,6 +98,7 @@ a {
 
 .features-block .item h4 {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .features-block .item p {
