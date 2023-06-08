@@ -151,7 +151,7 @@ a {
 .download-block .item .image-container {
     border: 1px solid white;
     border-radius: 1rem;
-    padding: 0 1rem;
+    padding: 0.4rem 1rem;
 }
 
 .download-block .item .image-container :hover {
