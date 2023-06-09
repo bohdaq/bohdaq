@@ -131,6 +131,7 @@ a {
     background-color: black;
     border-radius: 1rem;
     padding: 1rem;
+    line-height: 1.3rem;
 }
 
 .download-heading .chip.active {
