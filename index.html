@@ -60,7 +60,7 @@
         </div>
 
         <div class="download-block">
-            <div class="item">
+            <div class="item" onclick="linux_download()">
                 <div class="image-container">
                     <img class="feature-icon" src="linux-icon.svg" alt="http server linux">
                     <div>
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="item margin">
+            <div class="item margin" onclick="macos_download()">
                 <div class="image-container">
                     <img class="feature-icon" src="mac-os-x-icon.svg" alt="web server macosx">
                     <div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div class="item" onclick="windows_download()">
                 <div class="image-container">
                     <img class="feature-icon" src="windows-button-icon.svg" alt="http server windows">
                     <div>
@@ -153,6 +153,45 @@
                 event.target.classList.toggle('active');
                 app_state.selected_architecture = 'x86';
             }
+        }
+
+        function windows_download() {
+            let link;
+            if (app_state.selected_architecture === 'x86') {
+                link = app_state.download_links.x86.windows.direct_link;
+            }
+
+            if (app_state.selected_architecture === 'arm') {
+                link = app_state.download_links.arm.windows.direct_link;
+            }
+
+            window.open(link);
+        }
+
+        function macos_download() {
+            let link;
+            if (app_state.selected_architecture === 'x86') {
+                link = app_state.download_links.x86.macos.direct_link;
+            }
+
+            if (app_state.selected_architecture === 'arm') {
+                link = app_state.download_links.arm.macos.direct_link;
+            }
+
+            window.open(link);
+        }
+
+        function linux_download() {
+            let link;
+            if (app_state.selected_architecture === 'x86') {
+                link = app_state.download_links.x86.linux.direct_link;
+            }
+
+            if (app_state.selected_architecture === 'arm') {
+                link = app_state.download_links.arm.linux.direct_link;
+            }
+
+            window.open(link);
         }
     </script>
 </body>
