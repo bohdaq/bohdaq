@@ -9,6 +9,11 @@
     --divider-color: #BDBDBD;
 }
 
+::selection {
+    color: var(--primary-color);
+    background-color: var(--primary-text);
+}
+
 /*@media screen and (prefers-color-scheme: dark){*/
 body {
     font-size: 16px;
