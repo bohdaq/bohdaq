@@ -137,6 +137,7 @@ a {
     border-radius: 1rem;
     padding: 1rem;
     line-height: 1.3rem;
+    cursor: pointer;
 }
 
 .download-heading .chip.active {
@@ -145,6 +146,7 @@ a {
     border-radius: 1rem;
     padding: 1rem;
     font-size: 1.3rem;
+    cursor: auto;
 }
 
 .arch-toggle {

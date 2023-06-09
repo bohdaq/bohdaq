@@ -54,8 +54,8 @@
         <div class="download-heading">
             <div class="heading">Download</div>
             <div class="arch-toggle">
-                <div class="chip active">x86</div>
-                <div class="chip">ARM</div>
+                <div x86-chip class="chip active" onclick="x86_download()">x86</div>
+                <div arm-chip class="chip" onclick="arm_download()">ARM</div>
             </div>
         </div>
 
@@ -99,5 +99,20 @@
 
 <!--        <a rel="nofollow" href="https://drive.google.com/drive/folders/1KS84Emjo9sWgSdG2vTarRlJnYrzSP78t?usp=drive_link">Download</a>-->
     </div>
+    <script type="application/javascript">
+        function arm_download() {
+            if (!event.target.classList.contains('active')) {
+                document.querySelector('[x86-chip]').classList.remove('active');
+                event.target.classList.toggle('active');
+            }
+        }
+
+        function x86_download() {
+            if (!event.target.classList.contains('active')) {
+                document.querySelector('[arm-chip]').classList.remove('active');
+                event.target.classList.toggle('active');
+            }
+        }
+    </script>
 </body>
 </html>
