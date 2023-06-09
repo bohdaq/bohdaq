@@ -122,6 +122,30 @@ a {
     padding-top: 1rem;
 }
 
+.download-heading {
+    display: flex;
+}
+
+.download-heading .chip {
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.download-heading .chip.active {
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.arch-toggle {
+    display: flex;
+    padding: 1rem;
+}
+
 .download-block {
     display: flex;
 }
