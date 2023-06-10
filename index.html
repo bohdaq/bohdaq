@@ -8,214 +8,226 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header-container">
-            <div class="logo-icon">RWS</div>
-            <div class="flex"></div>
-            <img class="translate-icon" src="language-translator-icon.svg" alt="Languages">
-        </div>
-
-        <div class="hero-block">
-            <div class="hero-text">
-                <h1>RWS</h1>
-                <h2>HTTP Server</h2>
-            </div>
-        </div>
-
-<!--        <h1>RWS — fast, reliable and secure webserver</h1>-->
-        <div class="heading">Features</div>
-
-        <div class="features-block">
-            <div class="item">
-                <div class="image-container">
-                    <img class="feature-icon" src="thunder-icon.svg" alt="fast http server">
-                </div>
-                <h4>Fast</h4>
-                <p>Compiled to native binary for maximum performance</p>
-            </div>
-
-            <div class="item margin">
-                <div class="image-container">
-                    <img class="feature-icon" src="shield-checkmark-black-icon.svg" alt="reliable web server">
-                </div>
-                <h4>Reliable</h4>
-                <p>Does not rely on garbage collector, no performance degradation</p>
-            </div>
-
-            <div class="item">
-                <div class="image-container">
-                    <img class="feature-icon" src="shield-lock-black-icon.svg" alt="secure http server">
-                </div>
-                <h4>Secure</h4>
-                <p>Provides read-only access to files, eliminating most of the attacks</p>
-            </div>
-
-        </div>
-
-        <div class="download-heading">
-            <div class="heading">Download</div>
-            <div class="arch-toggle">
-                <div x86-chip class="chip active" onclick="x86_download()">x86</div>
-                <div arm-chip class="chip" onclick="arm_download()">ARM</div>
-            </div>
-        </div>
-
-        <div class="download-block">
-            <div class="item" onclick="linux_download()">
-                <div class="image-container">
-                    <img class="feature-icon" src="linux-icon.svg" alt="http server linux">
-                    <div>
-                        <h4>Linux</h4>
-                        <p>Download binary executable</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item margin" onclick="macos_download()">
-                <div class="image-container">
-                    <img class="feature-icon" src="mac-os-x-icon.svg" alt="web server macosx">
-                    <div>
-                        <h4>macOS</h4>
-                        <p>Download binary executable</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item" onclick="windows_download()">
-                <div class="image-container">
-                    <img class="feature-icon" src="windows-button-icon.svg" alt="http server windows">
-                    <div>
-                        <h4>Windows</h4>
-                        <p>Download binary executable</p>
-                    </div>
-                </div>
-                <div>
-
-
-                </div>
-            </div>
-
-        </div>
-
-
-<!--        <a rel="nofollow" href="https://drive.google.com/drive/folders/1KS84Emjo9sWgSdG2vTarRlJnYrzSP78t?usp=drive_link">Download</a>-->
+<div class="container">
+    <div class="header-container">
+        <div onclick="open_main_page()"
+             class="logo-icon">RWS</div>
+        <div class="flex"></div>
+        <img class="translate-icon"
+             onclick="open_language_page()"
+             src="/language-translator-icon.svg"
+             alt="Languages">
     </div>
-    <script type="application/javascript">
-        document.addEventListener('DOMContentLoaded', onDocumentLoad);
 
-        function onDocumentLoad() {
-            window.app_state = {};
-            app_state.download_links = {
-                x86: {
-                    linux: {
-                        drive_link: 'https://drive.google.com/drive/folders/1l99BMNGw0rt3dtzc_u2J-ol7egAPPLXw',
-                        direct_link: 'https://drive.google.com/uc?export=download&id=18EUAJiembq0lBkJRnuNUwU4kf7j9wdpv'
-                    },
-                    macos: {
-                        drive_link: 'https://drive.google.com/drive/folders/1KgWJYdCERPTotqaUaGp5TtiDj8Umc0nj',
-                        direct_link: 'https://drive.google.com/uc?export=download&id=19dpR0gm0FNhbDcK3awZEqXBks74COvnD'
-                    },
-                    windows: {
-                        drive_link: 'https://drive.google.com/drive/folders/1l99BMNGw0rt3dtzc_u2J-ol7egAPPLXw',
-                        direct_link: 'https://drive.google.com/uc?export=download&id=1nO_qaVDD-VTj1e1251DiJIZXx2kzgj7n'
-                    }
+    <div class="hero-block">
+        <div class="hero-text">
+            <h1>RWS</h1>
+            <h2>HTTP Server</h2>
+        </div>
+    </div>
+
+    <!--        <h1>RWS — fast, reliable and secure webserver</h1>-->
+    <div class="heading">Features</div>
+
+    <div class="features-block">
+        <div class="item">
+            <div class="image-container">
+                <img class="feature-icon" src="/thunder-icon.svg" alt="fast http server">
+            </div>
+            <h4>Fast</h4>
+            <p>Compiled to native binary for maximum performance</p>
+        </div>
+
+        <div class="item margin">
+            <div class="image-container">
+                <img class="feature-icon" src="/shield-checkmark-black-icon.svg" alt="reliable web server">
+            </div>
+            <h4>Reliable</h4>
+            <p>Does not rely on garbage collector, no performance degradation</p>
+        </div>
+
+        <div class="item">
+            <div class="image-container">
+                <img class="feature-icon" src="/shield-lock-black-icon.svg" alt="secure http server">
+            </div>
+            <h4>Secure</h4>
+            <p>Provides read-only access to files, eliminating most of the attacks</p>
+        </div>
+
+    </div>
+
+    <div class="download-heading">
+        <div class="heading">Download</div>
+        <div class="arch-toggle">
+            <div x86-chip class="chip active" onclick="x86_download()">x86</div>
+            <div arm-chip class="chip" onclick="arm_download()">ARM</div>
+        </div>
+    </div>
+
+    <div class="download-block">
+        <div class="item" onclick="linux_download()">
+            <div class="image-container">
+                <img class="feature-icon" src="/linux-icon.svg" alt="http server linux">
+                <div>
+                    <h4>Linux</h4>
+                    <p>Download binary executable</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item margin" onclick="macos_download()">
+            <div class="image-container">
+                <img class="feature-icon" src="/mac-os-x-icon.svg" alt="web server macosx">
+                <div>
+                    <h4>macOS</h4>
+                    <p>Download binary executable</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" onclick="windows_download()">
+            <div class="image-container">
+                <img class="feature-icon" src="/windows-button-icon.svg" alt="http server windows">
+                <div>
+                    <h4>Windows</h4>
+                    <p>Download binary executable</p>
+                </div>
+            </div>
+            <div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--        <a rel="nofollow" href="https://drive.google.com/drive/folders/1KS84Emjo9sWgSdG2vTarRlJnYrzSP78t?usp=drive_link">Download</a>-->
+</div>
+<script type="application/javascript">
+    document.addEventListener('DOMContentLoaded', onDocumentLoad);
+
+    function onDocumentLoad() {
+        window.app_state = {};
+        app_state.download_links = {
+            x86: {
+                linux: {
+                    drive_link: 'https://drive.google.com/drive/folders/1l99BMNGw0rt3dtzc_u2J-ol7egAPPLXw',
+                    direct_link: 'https://drive.google.com/uc?export=download&id=18EUAJiembq0lBkJRnuNUwU4kf7j9wdpv'
                 },
-                arm: {
-                    linux: {
-                        drive_link: 'https://drive.google.com/drive/folders/1_bgsyvG4BCPjYmSHs0K-viXe5qTAOC3N',
-                        direct_link: 'https://drive.google.com/uc?export=download&id=11WZsYcdst-bqIDU-5pwu9dHOtbwtLd5p'
-                    },
-                    macos: {
-                        drive_link: 'https://drive.google.com/drive/folders/18w4OfVdDtteuaHzsT1ekqL_dlnVeZ7hi',
-                        direct_link: 'https://drive.google.com/uc?export=download&id=1HtIKdCA5SyR2u_Q2Qdmm5jhpaSywS5qx'
-                    },
-                    windows: {
-                        drive_link: 'https://drive.google.com/drive/folders/1kJomtpyvxiLnOSPWsLun8rbtrgchzG_a',
-                        direct_link: 'https://drive.google.com/uc?export=download&id=1Zn_v81uV5CJrE2keNzjEo12iYxydYxkD'
-                    }
+                macos: {
+                    drive_link: 'https://drive.google.com/drive/folders/1KgWJYdCERPTotqaUaGp5TtiDj8Umc0nj',
+                    direct_link: 'https://drive.google.com/uc?export=download&id=19dpR0gm0FNhbDcK3awZEqXBks74COvnD'
+                },
+                windows: {
+                    drive_link: 'https://drive.google.com/drive/folders/1l99BMNGw0rt3dtzc_u2J-ol7egAPPLXw',
+                    direct_link: 'https://drive.google.com/uc?export=download&id=1nO_qaVDD-VTj1e1251DiJIZXx2kzgj7n'
+                }
+            },
+            arm: {
+                linux: {
+                    drive_link: 'https://drive.google.com/drive/folders/1_bgsyvG4BCPjYmSHs0K-viXe5qTAOC3N',
+                    direct_link: 'https://drive.google.com/uc?export=download&id=11WZsYcdst-bqIDU-5pwu9dHOtbwtLd5p'
+                },
+                macos: {
+                    drive_link: 'https://drive.google.com/drive/folders/18w4OfVdDtteuaHzsT1ekqL_dlnVeZ7hi',
+                    direct_link: 'https://drive.google.com/uc?export=download&id=1HtIKdCA5SyR2u_Q2Qdmm5jhpaSywS5qx'
+                },
+                windows: {
+                    drive_link: 'https://drive.google.com/drive/folders/1kJomtpyvxiLnOSPWsLun8rbtrgchzG_a',
+                    direct_link: 'https://drive.google.com/uc?export=download&id=1Zn_v81uV5CJrE2keNzjEo12iYxydYxkD'
                 }
             }
+        }
+        app_state.selected_architecture = 'x86';
+    }
+
+
+
+    function arm_download() {
+        if (!event.target.classList.contains('active')) {
+            document.querySelector('[x86-chip]').classList.remove('active');
+            event.target.classList.toggle('active');
+            app_state.selected_architecture = 'arm';
+        }
+    }
+
+    function x86_download() {
+        if (!event.target.classList.contains('active')) {
+            document.querySelector('[arm-chip]').classList.remove('active');
+            event.target.classList.toggle('active');
             app_state.selected_architecture = 'x86';
         }
+    }
 
-
-
-        function arm_download() {
-            if (!event.target.classList.contains('active')) {
-                document.querySelector('[x86-chip]').classList.remove('active');
-                event.target.classList.toggle('active');
-                app_state.selected_architecture = 'arm';
-            }
+    function windows_download() {
+        let link;
+        app_state.selected_os = 'windows';
+        if (app_state.selected_architecture === 'x86') {
+            link = app_state.download_links.x86.windows.direct_link;
         }
 
-        function x86_download() {
-            if (!event.target.classList.contains('active')) {
-                document.querySelector('[arm-chip]').classList.remove('active');
-                event.target.classList.toggle('active');
-                app_state.selected_architecture = 'x86';
-            }
+        if (app_state.selected_architecture === 'arm') {
+            link = app_state.download_links.arm.windows.direct_link;
         }
 
-        function windows_download() {
-            let link;
-            app_state.selected_os = 'windows';
-            if (app_state.selected_architecture === 'x86') {
-                link = app_state.download_links.x86.windows.direct_link;
-            }
+        download(link);
+    }
 
-            if (app_state.selected_architecture === 'arm') {
-                link = app_state.download_links.arm.windows.direct_link;
-            }
-
-            download(link);
+    function macos_download() {
+        let link;
+        app_state.selected_os = 'macos';
+        if (app_state.selected_architecture === 'x86') {
+            link = app_state.download_links.x86.macos.direct_link;
         }
 
-        function macos_download() {
-            let link;
-            app_state.selected_os = 'macos';
-            if (app_state.selected_architecture === 'x86') {
-                link = app_state.download_links.x86.macos.direct_link;
-            }
-
-            if (app_state.selected_architecture === 'arm') {
-                link = app_state.download_links.arm.macos.direct_link;
-            }
-
-            download(link);
+        if (app_state.selected_architecture === 'arm') {
+            link = app_state.download_links.arm.macos.direct_link;
         }
 
-        function linux_download() {
-            let link;
-            app_state.selected_os = 'linux';
-            if (app_state.selected_architecture === 'x86') {
-                link = app_state.download_links.x86.linux.direct_link;
-            }
+        download(link);
+    }
 
-            if (app_state.selected_architecture === 'arm') {
-                link = app_state.download_links.arm.linux.direct_link;
-            }
-
-            download(link);
+    function linux_download() {
+        let link;
+        app_state.selected_os = 'linux';
+        if (app_state.selected_architecture === 'x86') {
+            link = app_state.download_links.x86.linux.direct_link;
         }
 
-        function download(link) {
-            gtag('event', 'file_download', {
-                selected_architecture: app_state.selected_architecture,
-                selected_os: app_state.selected_os,
-                link: link
-            });
-            window.open(link);
+        if (app_state.selected_architecture === 'arm') {
+            link = app_state.download_links.arm.linux.direct_link;
         }
-    </script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W065HR92T"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        download(link);
+    }
 
-        gtag('config', 'G-1W065HR92T');
-    </script>
+    function download(link) {
+        gtag('event', 'file_download', {
+            selected_architecture: app_state.selected_architecture,
+            selected_os: app_state.selected_os,
+            link: link
+        });
+        window.open(link);
+    }
+
+    function open_main_page() {
+        window.location.href = '/';
+    }
+
+    function open_language_page() {
+        window.location.href = '/en/language.html';
+    }
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1W065HR92T"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1W065HR92T');
+</script>
 </body>
 </html>
