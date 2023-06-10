@@ -57,6 +57,7 @@ a {
 .translate-icon {
     height: 40px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .feature-icon {
@@ -69,6 +70,7 @@ a {
     font-size: 2rem;
     padding: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .hero-block {
