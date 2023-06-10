@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <title>RWS — fast, reliable and secure webserver</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <div onclick="open_main_page_in_english()" class="logo-icon">RWS</div>
+            <div class="flex"></div>
+            <img class="translate-icon" src="/language-translator-icon.svg" alt="Languages">
+        </div>
+
+        <div class="hero-block">
+            <div class="hero-text">
+                <h1>Language</h1>
+                <h2>Select language</h2>
+            </div>
+        </div>
+
+
+
+
+        <div class="download-block">
+            <div class="item" onclick="open_main_page_in_english()">
+                <div class="image-container">
+                    <div>
+                        <h4>English</h4>
+                        <p>Open website in english</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item margin" onclick="open_main_page_in_ukrainian()">
+                <div class="image-container">
+                    <div>
+                        <h4>Ukrainian</h4>
+                        <p>Open website in ukrainian</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+<!--        <a rel="nofollow" href="https://drive.google.com/drive/folders/1KS84Emjo9sWgSdG2vTarRlJnYrzSP78t?usp=drive_link">Download</a>-->
+    </div>
+    <script type="application/javascript">
+
+        function open_main_page_in_english() {
+            window.location.href = '/en/index.html';
+        }
+
+        function open_main_page_in_ukrainian() {
+            window.location.href = '/ua/index.html';
+        }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W065HR92T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1W065HR92T');
+    </script>
+</body>
+</html>
