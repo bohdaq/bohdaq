@@ -15,7 +15,16 @@
 }
 
 /*@media screen and (prefers-color-scheme: dark){*/
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     font-size: 16px;
     background-color: black;
 }
@@ -125,6 +134,7 @@ a {
     font-size: 2rem;
     margin: 1rem 0;
     padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 .download-heading {
@@ -156,6 +166,7 @@ a {
 
 .download-block {
     display: flex;
+    padding: 1rem;
 }
 
 .download-block .item {
@@ -202,3 +213,31 @@ a {
 }
 
 /*}*/
+
+@media screen and (max-width: 600px){
+    .features-block {
+        display: block;
+    }
+
+    .features-block .item.margin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .download-block {
+        display: block;
+    }
+
+    .download-block .item.margin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .download-block {
+        margin: 10px;
+    }
+
+    .features-block .item p {
+        text-align: center;
+    }
+}
