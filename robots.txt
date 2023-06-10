@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rws8.pp.ua/sitemap.xml
