@@ -158,6 +158,7 @@
 
         function windows_download() {
             let link;
+            app_state.selected_os = 'windows';
             if (app_state.selected_architecture === 'x86') {
                 link = app_state.download_links.x86.windows.direct_link;
             }
@@ -166,11 +167,12 @@
                 link = app_state.download_links.arm.windows.direct_link;
             }
 
-            window.open(link);
+            download(link);
         }
 
         function macos_download() {
             let link;
+            app_state.selected_os = 'macos';
             if (app_state.selected_architecture === 'x86') {
                 link = app_state.download_links.x86.macos.direct_link;
             }
@@ -179,11 +181,12 @@
                 link = app_state.download_links.arm.macos.direct_link;
             }
 
-            window.open(link);
+            download(link);
         }
 
         function linux_download() {
             let link;
+            app_state.selected_os = 'linux';
             if (app_state.selected_architecture === 'x86') {
                 link = app_state.download_links.x86.linux.direct_link;
             }
@@ -192,6 +195,15 @@
                 link = app_state.download_links.arm.linux.direct_link;
             }
 
+            download(link);
+        }
+
+        function download(link) {
+            gtag('event', 'file_download', {
+                selected_architecture: app_state.selected_architecture,
+                selected_os: app_state.selected_os,
+                link: link
+            });
             window.open(link);
         }
     </script>
