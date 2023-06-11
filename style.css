@@ -184,6 +184,8 @@ a {
 
 .download-block .item h3 {
     font-size: 1.5rem;
+    line-height: 60px;
+    margin: 0;
 }
 
 .download-block .item p {
