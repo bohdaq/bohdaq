@@ -11,5 +11,6 @@
         "sizes": "any"
       }
   ],
-  "related_applications": []
+  "related_applications": [],
+  "theme_color": "#000"
 }
