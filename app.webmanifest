@@ -1,0 +1,15 @@
+{
+  "name": "RWS",
+  "short_name": "RWS",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "description": "RWS - fast, reliable and secure webserver.",
+  "icons": [
+      {
+        "src": "favicon.svg",
+        "sizes": "any"
+      }
+  ],
+  "related_applications": []
+}
