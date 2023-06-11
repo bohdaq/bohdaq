@@ -6,10 +6,15 @@
   "background_color": "#000",
   "description": "RWS - fast, reliable and secure webserver.",
   "icons": [
-      {
-        "src": "favicon.svg",
-        "sizes": "any"
-      }
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon.svg",
+            "sizes": "any"
+        }
   ],
   "related_applications": [],
   "theme_color": "#000"
