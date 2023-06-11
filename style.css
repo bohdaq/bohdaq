@@ -100,7 +100,6 @@ a {
 }
 
 .features-block .item {
-    width: 100%;
     color: var(--text-icons);
     font-size: 2rem;
     margin: 1rem 0;
