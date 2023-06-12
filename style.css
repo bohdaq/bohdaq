@@ -112,13 +112,13 @@ a {
 }
 
 .features-block .item h3 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 1rem;
 }
 
 .features-block .item p {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .features-block .item .feature-icon {
@@ -183,13 +183,13 @@ a {
 }
 
 .download-block .item h3 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 60px;
     margin: 0;
 }
 
 .download-block .item p {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .download-block .item .feature-icon {
@@ -238,13 +238,13 @@ a {
 }
 
 .language-block .item h3 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 60px;
     margin: 0;
 }
 
 .language-block .item p {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .language-block .item .feature-icon {
@@ -282,7 +282,7 @@ a {
         display: block;
     }
 
-    .language-block, .download-block .item.margin {
+    .language-block  .item.margin, .download-block .item.margin {
         margin-left: 0;
         margin-right: 0;
     }
