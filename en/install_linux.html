@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="172qA-TvCBXHK49euA0z1jm3zQKf4sizl_bAlpt3564" />
+    <meta name="keywords" content="rws, webserver, http server">
+    <meta name="description" content="rws - fast, reliable and secure webserver">
+    <meta name="theme-color" content="#000">
+    <meta charset="UTF-8">
+    <title>How to install RWS on Linux | RWS — fast, reliable and secure webserver</title>
+    <link rel="icon" href="/logo32x32.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/logo180x180.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
+    <script async src="/sw.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W065HR92T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1W065HR92T');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXS59N8');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXS59N8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+        <div class="header-container">
+            <div onclick="open_main_page()"
+                 class="logo-icon">RWS</div>
+            <div class="flex"></div>
+            <img class="translate-icon"
+                 onclick="open_language_page()"
+                 src="/language-translator-icon.svg"
+                 alt="Languages">
+        </div>
+
+        <div class="hero-block">
+            <div class="hero-text">
+                <h1>Install</h1>
+                <h2>How to install RWS on Linux</h2>
+            </div>
+        </div>
+
+        <div class="heading">Installation</div>
+
+        <div class="install">
+            <p>
+                Once downloaded, open terminal and go to the directory containing the binary. Execute following commands:
+            </p>
+            <div class="blockquote">
+                sudo cp rws /usr/bin
+            </div>
+            <p>
+                First command copies the binary from current folder to system folder containing executable files.
+            </p>
+            <div class="blockquote">
+                sudo chmod 777 /usr/bin/rws
+            </div>
+            <p>
+                Second command changes the permissions for the binary allowing to be executed by the user, group and others.
+            </p>
+            <div class="blockquote">
+                rws
+            </div>
+            <p>
+                Third command executes (runs) the server. By default, it is running on the default loopback device, so it is inaccessible from the outer network.
+            </p>
+            <p>
+                Press
+                <span class="accent">CTRL + C</span>
+                in the command line to stop the server.
+            </p>
+        </div>
+    </div>
+
+
+    <script type="application/javascript">
+        document.addEventListener('DOMContentLoaded', onDocumentLoad);
+
+        function onDocumentLoad() {
+            window.app_state = {};
+            app_state.download_links = {
+                x86: {
+                    linux: {
+                        drive_link: 'https://drive.google.com/drive/folders/1l99BMNGw0rt3dtzc_u2J-ol7egAPPLXw',
+                        direct_link: 'https://drive.google.com/uc?export=download&id=18EUAJiembq0lBkJRnuNUwU4kf7j9wdpv'
+                    },
+                    macos: {
+                        drive_link: 'https://drive.google.com/drive/folders/1KgWJYdCERPTotqaUaGp5TtiDj8Umc0nj',
+                        direct_link: 'https://drive.google.com/uc?export=download&id=19dpR0gm0FNhbDcK3awZEqXBks74COvnD'
+                    },
+                    windows: {
+                        drive_link: 'https://drive.google.com/drive/folders/1l99BMNGw0rt3dtzc_u2J-ol7egAPPLXw',
+                        direct_link: 'https://drive.google.com/uc?export=download&id=1nO_qaVDD-VTj1e1251DiJIZXx2kzgj7n'
+                    }
+                },
+                arm: {
+                    linux: {
+                        drive_link: 'https://drive.google.com/drive/folders/1_bgsyvG4BCPjYmSHs0K-viXe5qTAOC3N',
+                        direct_link: 'https://drive.google.com/uc?export=download&id=11WZsYcdst-bqIDU-5pwu9dHOtbwtLd5p'
+                    },
+                    macos: {
+                        drive_link: 'https://drive.google.com/drive/folders/18w4OfVdDtteuaHzsT1ekqL_dlnVeZ7hi',
+                        direct_link: 'https://drive.google.com/uc?export=download&id=1HtIKdCA5SyR2u_Q2Qdmm5jhpaSywS5qx'
+                    },
+                    windows: {
+                        drive_link: 'https://drive.google.com/drive/folders/1kJomtpyvxiLnOSPWsLun8rbtrgchzG_a',
+                        direct_link: 'https://drive.google.com/uc?export=download&id=1Zn_v81uV5CJrE2keNzjEo12iYxydYxkD'
+                    }
+                }
+            }
+            app_state.selected_architecture = 'x86';
+        }
+
+
+
+        function arm_download() {
+            if (!event.target.classList.contains('active')) {
+                document.querySelector('[x86-chip]').classList.remove('active');
+                event.target.classList.toggle('active');
+                app_state.selected_architecture = 'arm';
+            }
+        }
+
+        function x86_download() {
+            if (!event.target.classList.contains('active')) {
+                document.querySelector('[arm-chip]').classList.remove('active');
+                event.target.classList.toggle('active');
+                app_state.selected_architecture = 'x86';
+            }
+        }
+
+        function windows_download() {
+            let link;
+            app_state.selected_os = 'windows';
+            if (app_state.selected_architecture === 'x86') {
+                link = app_state.download_links.x86.windows.direct_link;
+            }
+
+            if (app_state.selected_architecture === 'arm') {
+                link = app_state.download_links.arm.windows.direct_link;
+            }
+
+            download(link);
+        }
+
+        function macos_download() {
+            let link;
+            app_state.selected_os = 'macos';
+            if (app_state.selected_architecture === 'x86') {
+                link = app_state.download_links.x86.macos.direct_link;
+            }
+
+            if (app_state.selected_architecture === 'arm') {
+                link = app_state.download_links.arm.macos.direct_link;
+            }
+
+            download(link);
+        }
+
+        function linux_download() {
+            let link;
+            app_state.selected_os = 'linux';
+            if (app_state.selected_architecture === 'x86') {
+                link = app_state.download_links.x86.linux.direct_link;
+            }
+
+            if (app_state.selected_architecture === 'arm') {
+                link = app_state.download_links.arm.linux.direct_link;
+            }
+
+            download(link);
+        }
+
+        function download(link) {
+            gtag('event', 'file_download', {
+                selected_architecture: app_state.selected_architecture,
+                selected_os: app_state.selected_os,
+                link: link
+            });
+            window.open(link);
+        }
+
+        function open_main_page() {
+            window.location.href = '/en/index.html';
+        }
+
+        function open_language_page() {
+            window.location.href = '/en/language.html';
+        }
+    </script>
+
+</body>
+</html>

@@ -266,6 +266,29 @@ a {
     display: inline;
 }
 
+.install {
+    color: var(--text-icons);
+    margin: 1rem;
+}
+
+.install p {
+    font-size: 1.5rem;
+}
+
+.install .accent {
+    color: var(--accent-color);
+}
+
+.install .blockquote {
+    font-family: DejaVu, sans-serif;
+    background: #2a1515;
+    font-size: 2rem;
+    border-left: 10px solid var(--dark-primary-color);
+    padding-left: 10px;
+    margin-left: 10px;
+    color: var(--accent-color);
+}
+
 /*}*/
 
 @media screen and (max-width: 768px){
