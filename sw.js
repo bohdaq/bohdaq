@@ -55,8 +55,10 @@ if (url.protocol === 'https:') {
 
 
     const putInCache = async (request, response) => {
-        const cache = await caches.open("v1");
-        await cache.put(request, response);
+        if (request.method === 'GET') {
+            const cache = await caches.open("v1");
+            await cache.put(request, response);
+        }
     };
 
     const cacheFirst = async ({ request, fallbackUrl }) => {
