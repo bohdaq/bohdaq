@@ -41,6 +41,13 @@ a {
     color: var(--accent-color);
 }
 
+a.name {
+    text-decoration: none;
+    font-family: unset;
+    font-size: unset;
+    color: unset;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1024px;

@@ -39,13 +39,16 @@
 <!-- End Google Tag Manager (noscript) -->
 <div class="container">
     <div class="header-container">
-        <div onclick="open_main_page()"
-             class="logo-icon">RWS</div>
+        <a class="name" href="/">
+            <div class="logo-icon">RWS</div>
+        </a>
         <div class="flex"></div>
-        <img class="translate-icon"
-             onclick="open_language_page()"
-             src="/language-translator-icon.svg"
-             alt="Languages">
+        <a href="/en/language.html">
+            <img class="translate-icon"
+                 onclick="open_language_page()"
+                 src="/language-translator-icon.svg"
+                 alt="Languages">
+        </a>
     </div>
 
     <div class="hero-block">
@@ -240,13 +243,6 @@
         window.open(link);
     }
 
-    function open_main_page() {
-        window.location.href = '/';
-    }
-
-    function open_language_page() {
-        window.location.href = '/en/language.html';
-    }
 </script>
 
 
