@@ -46,6 +46,7 @@ a.name {
     font-family: unset;
     font-size: unset;
     color: unset;
+    display: block;
 }
 
 .container {
