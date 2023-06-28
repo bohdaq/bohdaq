@@ -33,22 +33,22 @@ if (url.protocol === 'https:') {
     self.addEventListener("install", (event) => {
         event.waitUntil(
             addResourcesToCache([
-                "/",
-                "/index.html",
-                "/en/index.html",
-                "/en/language.html",
-                "/ua/index.html",
-                "/ua/language.html",
-                "/style.css",
-                "/app.webmanifest",
-                "/favicon.svg",
-                "/language-translator-icon.svg",
-                "/linux-icon.svg",
-                "/mac-os-x-icon.svg",
-                "/shield-checkmark-black-icon.svg",
-                "/shield-lock-black-icon.svg",
-                "/thunder-icon.svg",
-                "/windows-button-icon.svg",
+                // "/",
+                // "/index.html",
+                // "/en/index.html",
+                // "/en/language.html",
+                // "/ua/index.html",
+                // "/ua/language.html",
+                // "/style.css",
+                // "/app.webmanifest",
+                // "/favicon.svg",
+                // "/language-translator-icon.svg",
+                // "/linux-icon.svg",
+                // "/mac-os-x-icon.svg",
+                // "/shield-checkmark-black-icon.svg",
+                // "/shield-lock-black-icon.svg",
+                // "/thunder-icon.svg",
+                // "/windows-button-icon.svg",
             ])
         );
     });
