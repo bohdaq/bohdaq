@@ -297,6 +297,27 @@ a.name {
     color: var(--accent-color);
 }
 
+.footer-outer-container {
+    height: 4rem;
+    border-top: 1px solid grey;
+
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-content {
+    color: var(--text-icons);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.default-link {
+    font-size: unset;
+}
+
 /*}*/
 
 @media screen and (max-width: 768px){
