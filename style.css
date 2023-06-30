@@ -112,6 +112,7 @@ a.name {
     font-size: 2rem;
     margin: 1rem 0;
     padding: 0 1rem;
+    min-width: 0;
 }
 
 .features-block .item.margin {
@@ -308,6 +309,16 @@ a.name {
 }
 
 .footer-content {
+    color: var(--text-icons);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.download-footer {
+    margin-bottom: 2rem;
+}
+
+.download-footer-content {
     color: var(--text-icons);
     font-size: 1.5rem;
     margin-left: 1rem;
