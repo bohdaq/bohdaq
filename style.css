@@ -34,11 +34,13 @@ h1 {
     font-size: 3.5rem;
     color: lightgray;
 }
-
 a {
+    color: var(--accent-color);
+}
+
+a.default-link {
     font-family: Metropolis, sans-serif;
     font-size: 3.5rem;
-    color: var(--accent-color);
 }
 
 a.name {
@@ -324,9 +326,7 @@ a.name {
     margin-left: 1rem;
 }
 
-.default-link {
-    font-size: unset;
-}
+
 
 /*}*/
 
