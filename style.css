@@ -149,6 +149,13 @@ a.name {
     padding-left: 1rem;
 }
 
+.secondary-heading {
+    color: var(--text-icons);
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    padding-top: 1rem;
+}
+
 .download-heading {
     display: flex;
 }
