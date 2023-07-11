@@ -62,7 +62,7 @@
                 The rws can be started without any configuration. The following is the default config - the server will bind to <b>IP 127.0.0.1</b> and <b>port 7878</b>, will spawn <b>200 threads</b>, <b>CORS requests are allowed</b>.
             </p>
             <p>
-                The rws will try to read configuration from system <b>environment variables</b> first, then it will override configuration by reading it from file named <b>rws.config.toml</b> placed in the same directory where you execute rws, at last it will apply config provided via <b>command-line arguments</b>.
+                The rws will try to read configuration from system <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.variables">environment variables</a> first, then it will override configuration by reading it from file named <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.config.toml">rws.config.toml</a> placed in the same directory where you execute rws, at last it will apply config provided via <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.command_line">command-line arguments</a>.
             </p>
             <p>
                 I personally prefer to use system environment variables, as once it is set correctly, they are hard to break accidentally by overwriting config, or each time providing command line arguments during restarts.
@@ -74,9 +74,9 @@
             <div class="secondary-heading">Encryption</div>
             <p>The rws is an HTTP server. This means if you are planning to use it somewhere else except the local machine you need to protect transferred data by using encryption.</p>
 
-            <p>There is a <a href="https://github.com/bohdaq/rust-tls-server">Rust TLS Server</a> for handling <b>HTTPS</b> over TLS. </p>
+            <p>There is a <a rel="nofollow" href="https://github.com/bohdaq/rust-tls-server">Rust TLS Server</a> for handling <b>HTTPS</b> over TLS. </p>
 
-            <p>You can also use <a href="https://github.com/bohdaq/http-to-https-letsencrypt">http-to-https-letsencrypt</a> to obtain free certificate from <b>Let's Encrypt</b>.</p>
+            <p>You can also use <a rel="nofollow" href="https://github.com/bohdaq/http-to-https-letsencrypt">http-to-https-letsencrypt</a> to obtain free certificate from <b>Let's Encrypt</b>.</p>
 
         </div>
     </div>
