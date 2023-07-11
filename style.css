@@ -293,7 +293,7 @@ a.name {
     font-size: 1.5rem;
 }
 
-.install .accent {
+.install b {
     color: var(--accent-color);
 }
 
