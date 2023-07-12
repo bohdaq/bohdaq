@@ -149,7 +149,7 @@ a.name {
     padding-left: 1rem;
 }
 
-.secondary-heading {
+h4 {
     color: var(--text-icons);
     font-size: 1.8rem;
     margin: 1rem 0;
