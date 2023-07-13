@@ -34,11 +34,11 @@ if (url.protocol === 'https:') {
         event.waitUntil(
             addResourcesToCache([
                 // "/",
-                // "/index.html",
-                // "/en/index.html",
-                // "/en/language.html",
-                // "/ua/index.html",
-                // "/ua/language.html",
+                // "/index",
+                // "/en/index",
+                // "/en/language",
+                // "/ua/index",
+                // "/ua/language",
                 // "/style.css",
                 // "/app.webmanifest",
                 // "/favicon.svg",
