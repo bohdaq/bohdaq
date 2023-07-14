@@ -81,6 +81,14 @@
             <h4>Memory</h4>
             <p>As any other application, rws will allocate memory required to serve the request. For example if the client will make an HTTP GET for resource which has size more than free available memory on the running instance, rws will throw Out Of Memory error.</p>
 
+            <p>In such case valid options are:</p>
+            <ul>
+                <li>Use range requests on the client for big resources to get a portion at a time.</li>
+                <li>Balance the overall load on instance in case you have heavy load by spinning up more rws instances and share traffic between them.</li>
+            </ul>
+
+            <p>To calculate <b>how much memory</b> is needed in worst case scenario, you can multiply the size of the biggest file to number of threads.</p>
+
         </div>
     </div>
 
