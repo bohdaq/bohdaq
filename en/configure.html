@@ -87,7 +87,9 @@
                 <li>Balance the overall load on instance in case you have heavy load by spinning up more rws instances and share traffic between them.</li>
             </ul>
 
-            <p>To calculate <b>how much memory</b> is needed in worst case scenario, you can multiply the size of the biggest file to number of threads.</p>
+            <p>To calculate <b>how much memory</b> is needed in worst case scenario, you can <b>multiply</b> the size of the <b>biggest file</b> to <b>number of threads</b>.</p>
+
+            <p>Additionally incoming request will consume some amount of memory as well as thread. <b>Adding 1 mb per thread</b> is good idea.</p>
 
         </div>
     </div>
