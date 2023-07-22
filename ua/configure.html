@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="172qA-TvCBXHK49euA0z1jm3zQKf4sizl_bAlpt3564" />
+    <meta name="keywords" content="rws, webserver, http server">
+    <meta name="description" content="rws - fast, reliable and secure webserver">
+    <meta name="theme-color" content="#000">
+    <meta charset="UTF-8">
+    <title>Як налаштувати  RWS | RWS — швидкий, надійний та захищений веб-сервер</title>
+    <link rel="icon" href="/logo32x32.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/logo180x180.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
+    <script async src="/sw.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W065HR92T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1W065HR92T');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXS59N8');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXS59N8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+        <div class="header-container">
+            <div onclick="open_main_page()"
+                 class="logo-icon">RWS</div>
+            <div class="flex"></div>
+            <img class="translate-icon"
+                 onclick="open_language_page()"
+                 src="/language-translator-icon.svg"
+                 alt="Languages">
+        </div>
+
+        <div class="hero-block">
+            <div class="hero-text">
+                <h1>Configure</h1>
+                <h2>How to configure RWS</h2>
+            </div>
+        </div>
+
+        <h3 class="heading">Configuration</h3>
+
+        <div class="install">
+            <p>
+                The rws can be started without any configuration. The following is the default config - the server will bind to <b>IP 127.0.0.1</b> and <b>port 7878</b>, will spawn <b>200 threads</b>, <b>CORS requests are allowed</b>.
+            </p>
+            <p>
+                The rws will try to read configuration from system <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.variables">environment variables</a> first, then it will override configuration by reading it from file named <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.config.toml">rws.config.toml</a> placed in the same directory where you execute rws, at last it will apply config provided via <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.command_line">command-line arguments</a>.
+            </p>
+            <p>
+                I personally prefer to use system environment variables, as once it is set correctly, they are hard to break accidentally by overwriting config, or each time providing command line arguments during restarts.
+            </p>
+            <p>
+                There may be a use case when you need to run <b>more than one instance</b>, in such a case config file per instance or command line configuration is an option.
+            </p>
+
+            <h4>Encryption</h4>
+            <p>The rws is an HTTP server. This means if you are planning to use it somewhere else except the local machine you need to protect transferred data by using encryption.</p>
+
+            <p>There is a <a rel="nofollow" href="https://github.com/bohdaq/rust-tls-server">Rust TLS Server</a> for handling <b>HTTPS</b> over TLS. </p>
+
+            <p>You can also use <a rel="nofollow" href="https://github.com/bohdaq/http-to-https-letsencrypt">http-to-https-letsencrypt</a> to obtain free certificate from <b>Let's Encrypt</b>.</p>
+
+            <h4>Memory</h4>
+            <p>As any other application, rws will allocate memory required to serve the request. For example if the client will make an HTTP GET for resource which has size more than free available memory on the running instance, rws will throw Out Of Memory error.</p>
+
+            <p>In such case valid options are:</p>
+            <ul>
+                <li>Use range requests on the client for big resources to get a portion at a time.</li>
+                <li>Balance the overall load on instance in case you have heavy load by spinning up more rws instances and share traffic between them.</li>
+            </ul>
+
+            <p>To calculate <b>how much memory</b> is needed in worst case scenario, you can <b>multiply</b> the size of the <b>biggest file</b> to <b>number of threads</b>.</p>
+
+            <p>Additionally incoming request will consume some amount of memory as well as thread. <b>Adding 1 mb per thread</b> is good idea.</p>
+
+        </div>
+    </div>
+
+
+    <script type="application/javascript">
+        function open_main_page() {
+            window.location.href = '/en/index';
+        }
+
+        function open_language_page() {
+            window.location.href = '/en/language';
+        }
+    </script>
+
+</body>
+</html>
