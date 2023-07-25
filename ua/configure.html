@@ -59,7 +59,7 @@
 
         <div class="install">
             <p>
-                The rws can be started without any configuration. The following is the default config - the server will bind to <b>IP 127.0.0.1</b> and <b>port 7878</b>, will spawn <b>200 threads</b>, <b>CORS requests are allowed</b>.
+                rws притримується філософії zero configuration, zero maintenance, що означає що сервер запускається без додаткових налаштувань і не потребує підтримки. Типовими за замовчуванням налаштуваннями є <b>IP 127.0.0.1</b> та <b>порт 7878</b>,  <b>200 потоків</b>, <b>усі CORS запити дозволені за замовчуванням</b>.
             </p>
             <p>
                 The rws will try to read configuration from system <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.variables">environment variables</a> first, then it will override configuration by reading it from file named <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.config.toml">rws.config.toml</a> placed in the same directory where you execute rws, at last it will apply config provided via <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.command_line">command-line arguments</a>.
