@@ -62,7 +62,8 @@
                 rws притримується філософії zero configuration, zero maintenance, що означає що сервер запускається без додаткових налаштувань і не потребує підтримки. Типовими за замовчуванням налаштуваннями є <b>IP 127.0.0.1</b> та <b>порт 7878</b>,  <b>200 потоків</b>, <b>усі CORS запити дозволені за замовчуванням</b>.
             </p>
             <p>
-                The rws will try to read configuration from system <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.variables">environment variables</a> first, then it will override configuration by reading it from file named <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.config.toml">rws.config.toml</a> placed in the same directory where you execute rws, at last it will apply config provided via <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.command_line">command-line arguments</a>.
+                rws — програма що запускається з консолі. Щоб змінити певні налаштування (ip, порт та інші) є декілька шляхів. Перший це використати <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.variables">змінні оточення</a>. Другий спосіб, це створити конфігураційний файл <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.config.toml">rws.config.toml</a>  в папці в котрій буде запущено сервер. Третій спосіб це вказати <a rel="nofollow" href="https://github.com/bohdaq/rust-web-server/blob/main/rws.command_line">аргументи</a> при запуску серверу.
+
             </p>
             <p>
                 I personally prefer to use system environment variables, as once it is set correctly, they are hard to break accidentally by overwriting config, or each time providing command line arguments during restarts.
