@@ -66,10 +66,10 @@
 
             </p>
             <p>
-                I personally prefer to use system environment variables, as once it is set correctly, they are hard to break accidentally by overwriting config, or each time providing command line arguments during restarts.
+                Змінні оточення зручно використовувати якщо потрібно запустити один інстанц серверу, якщо ж потрібно запустити декілька серверів на різних мережевих інтерфейсах та портах, або потрібно передбачити мігрування серверу на інше залізо краще використати конфігураційний файл. Аргументи виступають універсальними, оскільки вони мають найвищий пріоритет, а змінні оточення найнижчий.
             </p>
             <p>
-                There may be a use case when you need to run <b>more than one instance</b>, in such a case config file per instance or command line configuration is an option.
+                Це означає що можна вказати і змінні оточення і конфігураційний файл і аргументи запуску серверу, і відповідно в такому ж порядку виставлений пріорітет.
             </p>
 
             <h4>Encryption</h4>
