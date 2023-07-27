@@ -337,6 +337,11 @@ li {
     margin-left: 1rem;
 }
 
+abbr {
+    border-bottom: 1px dashed;
+    color: var(--accent-color);
+}
+
 
 
 /*}*/

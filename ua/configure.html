@@ -72,10 +72,16 @@
                 Це означає що можна вказати і змінні оточення і конфігураційний файл і аргументи запуску серверу, і відповідно в такому ж порядку виставлений пріорітет.
             </p>
 
-            <h4>Encryption</h4>
-            <p>The rws is an HTTP server. This means if you are planning to use it somewhere else except the local machine you need to protect transferred data by using encryption.</p>
+            <h4>Шифрування</h4>
+            <p>rws — це HTTP сервер. Це означає що якщо ти плануєш використовувати сервер для передачі конфіденційної інформації, тобі потрібно використовувати <abbr title="Transport Layer Security">TLS</abbr> шифрування з використанням https.</p>
 
-            <p>There is a <a rel="nofollow" href="https://github.com/bohdaq/rust-tls-server">Rust TLS Server</a> for handling <b>HTTPS</b> over TLS. </p>
+            <p>Для цього був створений <a rel="nofollow" href="https://github.com/bohdaq/rust-tls-server">Rust TLS Server</a> який підтримує <b>HTTPS</b> шифрування використовуючи TLS. </p>
+
+
+            <p>Відповідно для використання HTTPS потрібно мати сертифікат виданий одним з перевірених вендорів. Одним з вендорів який видає безкоштовно сертифікати є  <b>Let's Encrypt</b>.</p>
+
+            <p>Видача відбувається наступним чином: на сервері який доступний для зовнішньої мережі встановлюється <a rel="nofollow" href="https://certbot.eff.org">certbot</a>, який запитує Let’s Encrypt сертифікат для даного домену. Відповідно домен має мати налаштовані DNS котрі ведуть на сервер з якого виконується <b>certbot</b>.</p>
+
 
             <p>You can also use <a rel="nofollow" href="https://github.com/bohdaq/http-to-https-letsencrypt">http-to-https-letsencrypt</a> to obtain free certificate from <b>Let's Encrypt</b>.</p>
 
