@@ -87,7 +87,7 @@
             <p>Окрім переадресації на <b>https</b> версію веб сайту (TLS Server), потрібно передбачити можливість продовжувати та перегенеровувати сертифікат Let’s Encrypt.</p>
 
 
-            <p>You can also use <a rel="nofollow" href="https://github.com/bohdaq/http-to-https-letsencrypt">http-to-https-letsencrypt</a> to obtain free certificate from <b>Let's Encrypt</b>.</p>
+            <p>Саме ці дві проблеми вирішує  <a rel="nofollow" href="https://github.com/bohdaq/http-to-https-letsencrypt">http-to-https-letsencrypt</a>: перевірку та видачу сертифікату Let’s Encrypt та переадресацію усіх інших запитів з http на https.</p>
 
             <h4>Memory</h4>
             <p>As any other application, rws will allocate memory required to serve the request. For example if the client will make an HTTP GET for resource which has size more than free available memory on the running instance, rws will throw Out Of Memory error.</p>
