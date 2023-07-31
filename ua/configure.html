@@ -90,7 +90,7 @@
             <p>Саме ці дві проблеми вирішує  <a rel="nofollow" href="https://github.com/bohdaq/http-to-https-letsencrypt">http-to-https-letsencrypt</a>: перевірку та видачу сертифікату Let’s Encrypt та переадресацію усіх інших запитів з http на https.</p>
 
             <h4>Пам’ять</h4>
-            <p>As any other application, rws will allocate memory required to serve the request. For example if the client will make an HTTP GET for resource which has size more than free available memory on the running instance, rws will throw Out Of Memory error.</p>
+            <p>rws використає пам’ять необхідну для обробки запиту. Якщо пам’яті недостатньо, rws зупиниться з Out Of Memory помилкою.</p>
 
             <p>In such case valid options are:</p>
             <ul>
