@@ -297,8 +297,12 @@ li {
     font-size: 1.5rem;
 }
 
-.install b {
+b {
     color: var(--accent-color);
+}
+
+.bottom-offset {
+    height: 4rem;
 }
 
 .install .blockquote {
