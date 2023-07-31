@@ -92,10 +92,10 @@
             <h4>Пам’ять</h4>
             <p>rws використає пам’ять необхідну для обробки запиту. Якщо пам’яті недостатньо, rws зупиниться з Out Of Memory помилкою.</p>
 
-            <p>In such case valid options are:</p>
+            <p>В таких випадках:</p>
             <ul>
-                <li>Use range requests on the client for big resources to get a portion at a time.</li>
-                <li>Balance the overall load on instance in case you have heavy load by spinning up more rws instances and share traffic between them.</li>
+                <li>Використовуй range запити на клієнті для того щоб зменшити кількість пам’яті необхідної для обробки запиту.</li>
+                <li>Балансуй трафік, запустивши більшу кількість серверів та розкинь трафік між ними</li>
             </ul>
 
             <p>To calculate <b>how much memory</b> is needed in worst case scenario, you can <b>multiply</b> the size of the <b>biggest file</b> to <b>number of threads</b>.</p>
