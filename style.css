@@ -342,7 +342,7 @@ b {
 }
 
 abbr {
-    border-bottom: 1px dashed;
+    text-decoration: underline dotted;
     color: var(--accent-color);
 }
 
