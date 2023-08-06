@@ -105,7 +105,7 @@ a.name {
     color: var(--light-primary-color);
 }
 
-.features-block {
+.features-block, .contact-block {
     display: flex;
 }
 
@@ -116,6 +116,20 @@ a.name {
     padding: 0 1rem;
     min-width: 0;
 }
+
+.contact-block .item {
+    color: var(--text-icons);
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    min-width: 0;
+    width: 50%;
+}
+
+.contact-block h3 {
+    font-size: 2rem;
+}
+
 
 .features-block .item.margin {
     margin-left: 1rem;
@@ -351,8 +365,12 @@ abbr {
 /*}*/
 
 @media screen and (max-width: 768px){
-    .features-block {
+    .features-block, .contact-block {
         display: block;
+    }
+
+    .contact-block .item {
+        width: 100%;
     }
 
     .features-block .item.margin {
