@@ -21,113 +21,150 @@
 
 
 	<style>
-		.bd-placeholder-img {
-			font-size: 1.125rem;
-			text-anchor: middle;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			user-select: none;
+		body {
+			padding : 10px ;
+
 		}
 
-		@media (min-width: 768px) {
-			.bd-placeholder-img-lg {
-				font-size: 3.5rem;
-			}
+		#exTab1 .tab-content {
+			color : white;
+			background-color: #428bca;
+			padding : 5px 15px;
 		}
 
-		.b-example-divider {
-			width: 100%;
-			height: 3rem;
-			background-color: rgba(0, 0, 0, .1);
-			border: solid rgba(0, 0, 0, .15);
-			border-width: 1px 0;
-			box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+		#exTab2 h3 {
+			color : white;
+			background-color: #428bca;
+			padding : 5px 15px;
 		}
 
-		.b-example-vr {
-			flex-shrink: 0;
-			width: 1.5rem;
-			height: 100vh;
+		/* remove border radius for the tab */
+
+		#exTab1 .nav-pills > li > a {
+			border-radius: 0;
 		}
 
-		.bi {
-			vertical-align: -.125em;
-			fill: currentColor;
+		/* change border radius for the tab , apply corners on top*/
+
+		#exTab3 .nav-pills > li > a {
+			border-radius: 4px 4px 0 0 ;
 		}
 
-		.nav-scroller {
-			position: relative;
-			z-index: 2;
-			height: 2.75rem;
-			overflow-y: hidden;
+		#exTab3 .tab-content {
+			color : white;
+			background-color: #428bca;
+			padding : 5px 15px;
 		}
 
-		.nav-scroller .nav {
-			display: flex;
-			flex-wrap: nowrap;
-			padding-bottom: 1rem;
-			margin-top: -1px;
-			overflow-x: auto;
-			text-align: center;
-			white-space: nowrap;
-			-webkit-overflow-scrolling: touch;
-		}
 
-		.btn-bd-primary {
-			--bd-violet-bg: #712cf9;
-			--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
-			--bs-btn-font-weight: 600;
-			--bs-btn-color: var(--bs-white);
-			--bs-btn-bg: var(--bd-violet-bg);
-			--bs-btn-border-color: var(--bd-violet-bg);
-			--bs-btn-hover-color: var(--bs-white);
-			--bs-btn-hover-bg: #6528e0;
-			--bs-btn-hover-border-color: #6528e0;
-			--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-			--bs-btn-active-color: var(--bs-btn-hover-color);
-			--bs-btn-active-bg: #5a23c8;
-			--bs-btn-active-border-color: #5a23c8;
-		}
 
-		.bd-mode-toggle {
-			z-index: 1500;
-		}
 
-		.bd-mode-toggle .dropdown-menu .active .bi {
-			display: block !important;
-		}
 
-		.form-signin {
-			width: 400px;
-		}
-
-		.g_id_signin {
-			margin-top: 1.5em;
-		}
 	</style>
 
 
 	<!-- Custom styles for this template -->
 	<link href="sign-in.css" rel="stylesheet">
 </head>
-<body class="d-flex align-items-center py-4 bg-body-tertiary">
+<body>
 
-	<ul class="nav nav-tabs" id="myTab" role="tablist">
-		<li class="nav-item" role="presentation">
-			<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+
+<div class="container"><h1>Bootstrap  tab panel example (using nav-pills)  </h1></div>
+<div id="exTab1" class="container">
+	<ul  class="nav nav-pills">
+		<li class="active">
+			<a  href="#1a" data-toggle="tab">Overview</a>
 		</li>
-		<li class="nav-item" role="presentation">
-			<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+		<li><a href="#2a" data-toggle="tab">Using nav-pills</a>
 		</li>
-		<li class="nav-item" role="presentation">
-			<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+		<li><a href="#3a" data-toggle="tab">Applying clearfix</a>
+		</li>
+		<li><a href="#4a" data-toggle="tab">Background color</a>
 		</li>
 	</ul>
-	<div class="tab-content" id="myTabContent">
-		<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-		<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-		<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+
+	<div class="tab-content clearfix">
+		<div class="tab-pane active" id="1a">
+			<h3>Content's background color is the same for the tab</h3>
+		</div>
+		<div class="tab-pane" id="2a">
+			<h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+		</div>
+		<div class="tab-pane" id="3a">
+			<h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+		</div>
+		<div class="tab-pane" id="4a">
+			<h3>We use css to change the background color of the content to be equal to the tab</h3>
+		</div>
 	</div>
+</div>
+
+
+<hr></hr>
+<div class="container"><h2>Example tab 2 (using standard nav-tabs)</h2></div>
+
+<div id="exTab2" class="container">
+	<ul class="nav nav-tabs">
+		<li class="active">
+			<a  href="#1" data-toggle="tab">Overview</a>
+		</li>
+		<li><a href="#2" data-toggle="tab">Without clearfix</a>
+		</li>
+		<li><a href="#3" data-toggle="tab">Solution</a>
+		</li>
+	</ul>
+
+	<div class="tab-content ">
+		<div class="tab-pane active" id="1">
+			<h3>Standard tab panel created on bootstrap using nav-tabs</h3>
+		</div>
+		<div class="tab-pane" id="2">
+			<h3>Notice the gap between the content and tab after applying a background color</h3>
+		</div>
+		<div class="tab-pane" id="3">
+			<h3>add clearfix to tab-content (see the css)</h3>
+		</div>
+	</div>
+</div>
+
+<hr></hr>
+
+<div class="container"><h2>Example 3 </h2></div>
+<div id="exTab3" class="container">
+	<ul  class="nav nav-pills">
+		<li class="active">
+			<a  href="#1b" data-toggle="tab">Overview</a>
+		</li>
+		<li><a href="#2b" data-toggle="tab">Using nav-pills</a>
+		</li>
+		<li><a href="#3b" data-toggle="tab">Applying clearfix</a>
+		</li>
+		<li><a href="#4a" data-toggle="tab">Background color</a>
+		</li>
+	</ul>
+
+	<div class="tab-content clearfix">
+		<div class="tab-pane active" id="1b">
+			<h3>Same as example 1 but we have now styled the tab's corner</h3>
+		</div>
+		<div class="tab-pane" id="2b">
+			<h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+		</div>
+		<div class="tab-pane" id="3b">
+			<h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+		</div>
+		<div class="tab-pane" id="4b">
+			<h3>We use css to change the background color of the content to be equal to the tab</h3>
+		</div>
+	</div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
