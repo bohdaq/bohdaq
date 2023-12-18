@@ -9,14 +9,14 @@
     <meta name="theme-color" content="#000">
     <meta charset="UTF-8">
     <title>RWS — fast, reliable and secure webserver</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="icon" href="logo32x32.ico" sizes="any">
-    <link rel="apple-touch-icon" href="logo180x180.png" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="app.webmanifest" crossorigin="use-credentials">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/logo32x32.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/logo180x180.png" type="image/svg+xml">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W065HR92T"></script>
-    <script async src="/sw.js"></script>
+    <script async src="sw.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -39,13 +39,13 @@
 <!-- End Google Tag Manager (noscript) -->
 <div class="container">
     <div class="header-container">
-        <a class="name" href="">
+        <a class="name" href="/">
             <div class="logo-icon">RWS</div>
         </a>
         <div class="flex"></div>
-        <a href="en/language">
+        <a href="/en/language">
             <img class="translate-icon"
-                 src="/language-translator-icon.svg"
+                 src="language-translator-icon.svg"
                  alt="Languages">
         </a>
     </div>
@@ -63,7 +63,7 @@
     <div class="features-block">
         <div class="item">
             <div class="image-container">
-                <img class="feature-icon" src="/thunder-icon.svg" alt="fast http server">
+                <img class="feature-icon" src="thunder-icon.svg" alt="fast http server">
             </div>
             <h3>Fast</h3>
             <p>Compiled to native binary for maximum performance</p>
@@ -71,7 +71,7 @@
 
         <div class="item margin">
             <div class="image-container">
-                <img class="feature-icon" src="/shield-checkmark-black-icon.svg" alt="reliable web server">
+                <img class="feature-icon" src="shield-checkmark-black-icon.svg" alt="reliable web server">
             </div>
             <h3>Reliable</h3>
             <p>Does not rely on garbage collector, no performance degradation</p>
@@ -79,7 +79,7 @@
 
         <div class="item">
             <div class="image-container">
-                <img class="feature-icon" src="/shield-lock-black-icon.svg" alt="secure http server">
+                <img class="feature-icon" src="shield-lock-black-icon.svg" alt="secure http server">
             </div>
             <h3>Secure</h3>
             <p>Provides read-only access to files, eliminating most of the attacks</p>
@@ -98,7 +98,7 @@
     <div class="download-block">
         <div class="item" onclick="linux_download()">
             <div class="image-container">
-                <img class="feature-icon" src="/linux-icon.svg" alt="http server linux">
+                <img class="feature-icon" src="linux-icon.svg" alt="http server linux">
                 <div>
                     <h3>Linux</h3>
                     <p>Download binary executable</p>
@@ -108,7 +108,7 @@
 
         <div class="item margin" onclick="macos_download()">
             <div class="image-container">
-                <img class="feature-icon" src="/mac-os-x-icon.svg" alt="web server macosx">
+                <img class="feature-icon" src="mac-os-x-icon.svg" alt="web server macosx">
                 <div>
                     <h3>macOS</h3>
                     <p>Download binary executable</p>
@@ -118,7 +118,7 @@
 
         <div class="item" onclick="windows_download()">
             <div class="image-container">
-                <img class="feature-icon" src="/windows-button-icon.svg" alt="http server windows">
+                <img class="feature-icon" src="windows-button-icon.svg" alt="http server windows">
                 <div>
                     <h3>Windows</h3>
                     <p>Download binary executable</p>
@@ -143,9 +143,9 @@
     </div>
 
     <div class="download-block">
-        <a class="item name" href="en/install_linux">
+        <a class="item name" href="/en/install_linux">
                 <div class="image-container">
-                    <img class="feature-icon" src="/linux-icon.svg" alt="http server linux">
+                    <img class="feature-icon" src="linux-icon.svg" alt="http server linux">
                     <div>
                         <h3>Linux</h3>
                         <p>Howto install guide</p>
@@ -153,9 +153,9 @@
                 </div>
         </a>
 
-        <a class="item margin name" href="en/install_macos">
+        <a class="item margin name" href="/en/install_macos">
             <div class="image-container">
-                <img class="feature-icon" src="/mac-os-x-icon.svg" alt="web server macosx">
+                <img class="feature-icon" src="mac-os-x-icon.svg" alt="web server macosx">
                 <div>
                     <h3>macOS</h3>
                     <p>Howto install guide</p>
@@ -163,9 +163,9 @@
             </div>
         </a>
 
-        <a class="item name" href="en/install_windows">
+        <a class="item name" href="/en/install_windows">
             <div class="image-container">
-                <img class="feature-icon" src="/windows-button-icon.svg" alt="http server windows">
+                <img class="feature-icon" src="windows-button-icon.svg" alt="http server windows">
                 <div>
                     <h3>Windows</h3>
                     <p>Howto install guide</p>
@@ -183,7 +183,7 @@
         <div class="heading">Configure</div>
         <div class="footer-content">
             <p> The rws can be started without any configuration. The following is the default config - the server will bind to <b>IP 127.0.0.1</b> and <b>port 7878</b>, will spawn <b>200 threads</b>, <b>CORS requests are allowed</b>. </p>
-            <p> <a href="en/configure">Learn more</a></p>
+            <p> <a href="/en/configure">Learn more</a></p>
         </div>
     </div>
 
@@ -209,7 +209,7 @@
 
     <div class="footer">
         <div class="heading">Community</div>
-        <div class="footer-content">Source code is open and available on <a rel="nofollow" href="https://github.com/bohdaq/rws">GitHub</a>. Released on <a href="en/terms">terms</a> of permissive licenses. </div>
+        <div class="footer-content">Source code is open and available on <a rel="nofollow" href="https://github.com/bohdaq/rws">GitHub</a>. Released on <a href="/en/terms">terms</a> of permissive licenses. </div>
 
     </div>
 
