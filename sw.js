@@ -40,7 +40,7 @@ if (url.protocol === 'https:') {
                 // "/ua/index",
                 // "/ua/language",
                 // "/style.css",
-                // "/https://bohdaq.github.io/bohdaq/app.webmanifest",
+                // "/app.webmanifest",
                 // "/favicon.svg",
                 // "/language-translator-icon.svg",
                 // "/linux-icon.svg",
