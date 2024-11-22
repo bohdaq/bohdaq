@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Here is the list of stuff, I've done so far:
+<!-- Here is the list of stuff, I've done so far:
 
 - 💬 [rws](https://github.com/bohdaq/rws) - web-server
 - ✨ [rust-web-framework](https://github.com/bohdaq/rust-web-framework/releases) - collection of utility functions used to build Rust Web Server. Can be useful while developing HTTP related functionality. Core lib for rust-web-server, rust-tls-server and http-to-https-letsencrypt.
@@ -13,7 +13,7 @@ Here is the list of stuff, I've done so far:
 - 🔭 [crypto-ext](https://github.com/bohdaq/crypto-ext/releases) - set of functionality providing easy and intuitive abstractions to encrypt, decrypt, sign and verify your data
 
 To start discussion on any topic, visit 🔥[this link](https://github.com/bohdaq/discussions/discussions)🔥.
-<!--
+
 **bohdaq/bohdaq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
