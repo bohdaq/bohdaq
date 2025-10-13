@@ -1,29 +1,114 @@
-### Hi there 👋
+# Hi there, I'm Bohdan Tsap 👋
 
-<!-- Here is the list of stuff, I've done so far:
+<div align="center">
+  
+  [![GitHub followers](https://img.shields.io/github/followers/bohdaq?style=social)](https://github.com/bohdaq)
+  
+</div>
 
-- 💬 [rws](https://github.com/bohdaq/rws) - web-server
-- ✨ [rust-web-framework](https://github.com/bohdaq/rust-web-framework/releases) - collection of utility functions used to build Rust Web Server. Can be useful while developing HTTP related functionality. Core lib for rust-web-server, rust-tls-server and http-to-https-letsencrypt.
-- 🌱 [file-ext](https://github.com/bohdaq/file-ext/releases) - collection of utility functions to work with files
-- 👯 [url-search-params](https://github.com/bohdaq/url-search-params/releases) - create search params (query string) from HashMap and vice versa.
-- 🤔 [url-build-parse](https://github.com/bohdaq/url-build-parse/releases) - parse URL from string as well as construct URL from parts.
-- 📫 [rust-tls-server](https://github.com/bohdaq/rust-tls-server/releases) - web server for handling HTTPS using TLS
-- 😄 [http-to-https-letsencrypt](https://github.com/bohdaq/http-to-https-letsencrypt/releases) - HTTP server with default redirect to HTTPS and support for Let'sEncrypt Automatic Certificate Management Environment using HTTP-01 challenge
-- ⚡ [steam-webapi-rust-sdk](https://github.com/bohdaq/steam-webapi-rust-sdk/releases) - set of utility functions to access Steam Web API.
-- 🔭 [crypto-ext](https://github.com/bohdaq/crypto-ext/releases) - set of functionality providing easy and intuitive abstractions to encrypt, decrypt, sign and verify your data
+## 🚀 About Me
 
-To start discussion on any topic, visit 🔥[this link](https://github.com/bohdaq/discussions/discussions)🔥.
+I'm a **Full-Stack Developer** passionate about building developer tools and open-source software. I believe in creating tools that make developers' lives easier and more productive.
 
-**bohdaq/bohdaq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 Currently working on **[HITOP](https://github.com/bohdaq/hitop)** - A powerful HTTP API testing tool
+- 🌐 Building for the web, desktop, and browser extensions
+- 💡 Focused on privacy-first, open-source solutions
+- 🎯 Making API testing accessible to everyone
 
-Here are some ideas to get you started:
+## 🛠️ Featured Project
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [HITOP - HTTP API Testing Tool](https://github.com/bohdaq/hitop)
+
+<div align="center">
+  
+  ![HITOP Logo](https://bohdaq.github.io/hitop/favicon.png)
+  
+  **A modern, privacy-focused alternative to Postman**
+  
+  [![Stars](https://img.shields.io/github/stars/bohdaq/hitop?style=social)](https://github.com/bohdaq/hitop)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bohdaq/hitop/blob/main/LICENSE)
+  [![Version](https://img.shields.io/badge/version-3.0.0-green.svg)](https://github.com/bohdaq/hitop)
+  
+</div>
+
+**Available on multiple platforms:**
+- 🌐 [Web App](https://bohdaq.github.io/hitop/app/) - No installation required
+- 🦊 [Firefox Extension](https://addons.mozilla.org/addon/hitop/) - Full browser integration
+- 🔵 [Chrome Extension](https://chromewebstore.google.com/detail/hitop-http-api-testing-to/mmbpagencfjfgeicmeobbmeocdpeokdk) - Available on Chrome Web Store
+- 💻 Desktop App - Coming soon for Mac, Windows, Linux
+
+**Key Features:**
+- ✅ Complete HTTP support (GET, POST, PUT, DELETE, etc.)
+- ✅ Collections & Variables management
+- ✅ Custom JavaScript scripting (pre/post-request)
+- ✅ Request history & multiple tabs
+- ✅ 100% privacy-focused - all data stored locally
+- ✅ Beautiful syntax highlighting
+- ✅ Import/Export collections
+
+## 💻 Tech Stack
+
+```javascript
+const bohdaq = {
+  languages: ["JavaScript", "TypeScript", "HTML/CSS", "Bash"],
+  frameworks: {
+    frontend: ["React", "Material-UI", "Emotion"],
+    desktop: ["Electron"],
+    extensions: ["WebExtensions API"]
+  },
+  tools: ["Git", "npm", "Webpack", "GitHub Actions"],
+  focus: ["Developer Tools", "API Testing", "Open Source"],
+  principles: ["Privacy First", "User Experience", "Clean Code"]
+};
+```
+
+## 📊 GitHub Stats
+
+<div align="center">
+  
+  ![Bohdan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bohdaq&show_icons=true&theme=radical&hide_border=true)
+  
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bohdaq&layout=compact&theme=radical&hide_border=true)
+  
+</div>
+
+## 🎯 What I'm Building
+
+- 🔧 **Developer Tools** - Making API testing easier and more accessible
+- 🌐 **Cross-Platform Apps** - Web, Desktop, and Browser Extensions
+- 🔒 **Privacy-Focused Software** - No tracking, no external servers, user data stays local
+- 📦 **Open Source** - Contributing to the community and building in public
+
+## 🌟 Philosophy
+
+> "Great tools should be free, open, and respect user privacy."
+
+I believe in:
+- **Open Source First** - Code should be transparent and accessible
+- **Privacy Matters** - Users own their data
+- **Developer Experience** - Tools should be intuitive and powerful
+- **Community Driven** - Building with and for the community
+
+## 📫 Get in Touch
+
+- 🌐 Website: [rws8.tech](https://rws8.tech)
+- 📧 Email: bohdaq@gmail.com
+- 💼 GitHub: [@bohdaq](https://github.com/bohdaq)
+
+## 🤝 Support My Work
+
+If you find my projects useful, consider:
+- ⭐ Starring [HITOP](https://github.com/bohdaq/hitop)
+- 🐛 Reporting issues or suggesting features
+- 🔀 Contributing code or documentation
+- 📢 Sharing with other developers
+
+---
+
+<div align="center">
+  
+  **"Building tools that developers love to use"**
+  
+  ![Profile Views](https://komarev.com/ghpvc/?username=bohdaq&color=blueviolet&style=flat-square)
+  
+</div>
