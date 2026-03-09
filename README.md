@@ -10,67 +10,10 @@
 
 I'm a **Full-Stack Developer** passionate about building developer tools and open-source software. I believe in creating tools that make developers' lives easier and more productive.
 
-- 🔭 Currently working on **[HITOP](https://github.com/bohdaq/hitop)** - A powerful HTTP API testing tool
 - 🌐 Building for the web, desktop, and browser extensions
 - 💡 Focused on privacy-first, open-source solutions
 - 🎯 Making API testing accessible to everyone
 
-## 🛠️ Featured Project
-
-### [HITOP - HTTP API Testing Tool](https://github.com/bohdaq/hitop)
-
-<div align="center">
-  
-  ![HITOP Logo](https://bohdaq.github.io/hitop/favicon.png)
-  
-  **A modern, privacy-focused alternative to Postman**
-  
-  [![Stars](https://img.shields.io/github/stars/bohdaq/hitop?style=social)](https://github.com/bohdaq/hitop)
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bohdaq/hitop/blob/main/LICENSE)
-  [![Version](https://img.shields.io/badge/version-3.0.0-green.svg)](https://github.com/bohdaq/hitop)
-  
-</div>
-
-**Available on multiple platforms:**
-- 🌐 [Web App](https://bohdaq.github.io/hitop/app/) - No installation required
-- 🦊 [Firefox Extension](https://addons.mozilla.org/addon/hitop/) - Full browser integration
-- 🔵 [Chrome Extension](https://chromewebstore.google.com/detail/hitop-http-api-testing-to/mmbpagencfjfgeicmeobbmeocdpeokdk) - Available on Chrome Web Store
-- 💻 Desktop App - Coming soon for Mac, Windows, Linux
-
-**Key Features:**
-- ✅ Complete HTTP support (GET, POST, PUT, DELETE, etc.)
-- ✅ Collections & Variables management
-- ✅ Custom JavaScript scripting (pre/post-request)
-- ✅ Request history & multiple tabs
-- ✅ 100% privacy-focused - all data stored locally
-- ✅ Beautiful syntax highlighting
-- ✅ Import/Export collections
-
-## 💻 Tech Stack
-
-```javascript
-const bohdaq = {
-  languages: ["JavaScript", "TypeScript", "HTML/CSS", "Bash"],
-  frameworks: {
-    frontend: ["React", "Material-UI", "Emotion"],
-    desktop: ["Electron"],
-    extensions: ["WebExtensions API"]
-  },
-  tools: ["Git", "npm", "Webpack", "GitHub Actions"],
-  focus: ["Developer Tools", "API Testing", "Open Source"],
-  principles: ["Privacy First", "User Experience", "Clean Code"]
-};
-```
-
-## 📊 GitHub Stats
-
-<div align="center">
-  
-  ![Bohdan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bohdaq&show_icons=true&theme=radical&hide_border=true)
-  
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bohdaq&layout=compact&theme=radical&hide_border=true)
-  
-</div>
 
 ## 🎯 What I'm Building
 
