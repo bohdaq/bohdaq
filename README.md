@@ -15,9 +15,7 @@ Software engineer building cloud infrastructure and developer tools, mostly in *
 | [**rust-web-server**](https://github.com/bohdaq/rust-web-server) | Web server and reverse proxy with automatic HTTPS (Let's Encrypt), HTTP/3, load balancing and auth, configured in one TOML file. Also usable as a Rust library. · [rws8.tech](https://rws8.tech) | Rust |
 | [**hitop**](https://github.com/bohdaq/hitop) | HTTP API testing tool: requests, collections and JS scripting. Ships as a CLI, a desktop app and browser extensions. Runs in CI via [hitop-action](https://github.com/bohdaq/hitop-action). · [hitop.rws8.tech](https://hitop.rws8.tech) | Rust · Tauri |
 | [**lit-material**](https://github.com/bohdaq/lit-material) | Material Design 3 web components built on Lit. One package per component, SSR-ready, framework-agnostic, with app-shell primitives (router, store, forms). · [lit.rws8.tech](https://lit.rws8.tech) | TypeScript |
-| [**Kube-DC**](https://github.com/kube-dc/kube-dc-public) | Multi-tenant cloud platform on Kubernetes: VMs (KubeVirt), managed clusters, networking, billing and a web console. | Go · Kubernetes |
-| [**Javadrift**](https://github.com/bohdaq/Javadrift) | CLI and build plugin that fails a Java build when Markdown docs mention code that no longer exists. | Java |
-| [**stuntdb**](https://github.com/bohdaq/stuntdb) | Cycle-safe MySQL database slices for development. | Python |
+
 
 #### Tech
 
