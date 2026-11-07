@@ -1,7 +1,6 @@
 ### Bohdan Tsap
 
-Software engineer building cloud infrastructure and developer tools, mostly in **Rust**, **Go** and **TypeScript**.
-I work on [Kube-DC](https://kube-dc.cloud), a Kubernetes-based platform for running your own cloud in any datacenter, and maintain a few open-source projects of my own.
+Software engineer building cloud infrastructure and developer tools, mostly in **Java**, **Rust** and **TypeScript**.
 
 [![Website](https://img.shields.io/badge/rws8.tech-0A0A0A?style=flat-square&logo=rust&logoColor=white)](https://rws8.tech)
 [![Email](https://img.shields.io/badge/bohdaq@gmail.com-0A0A0A?style=flat-square&logo=gmail&logoColor=white)](mailto:bohdaq@gmail.com)
