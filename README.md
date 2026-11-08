@@ -2,19 +2,8 @@
 
 Software engineer building cloud infrastructure and developer tools, mostly in **Java**, **Rust** and **TypeScript**.
 
-[![Website](https://img.shields.io/badge/rws8.tech-0A0A0A?style=flat-square&logo=rust&logoColor=white)](https://rws8.tech)
-[![Email](https://img.shields.io/badge/bohdaq@gmail.com-0A0A0A?style=flat-square&logo=gmail&logoColor=white)](mailto:bohdaq@gmail.com)
-[![GitHub followers](https://img.shields.io/github/followers/bohdaq?style=flat-square&label=followers&color=0A0A0A)](https://github.com/bohdaq?tab=followers)
-
----
-
-#### Projects
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [**rust-web-server**](https://github.com/bohdaq/rust-web-server) | Web server and reverse proxy with automatic HTTPS (Let's Encrypt), HTTP/3, load balancing and auth, configured in one TOML file. Also usable as a Rust library. · [rws8.tech](https://rws8.tech) | Rust |
-| [**hitop**](https://github.com/bohdaq/hitop) | HTTP API testing tool: requests, collections and JS scripting. Ships as a CLI, a desktop app and browser extensions. Runs in CI via [hitop-action](https://github.com/bohdaq/hitop-action). · [hitop.rws8.tech](https://hitop.rws8.tech) | Rust · Tauri |
-| [**lit-material**](https://github.com/bohdaq/lit-material) | Material Design 3 web components built on Lit. One package per component, SSR-ready, framework-agnostic, with app-shell primitives (router, store, forms). · [lit.rws8.tech](https://lit.rws8.tech) | TypeScript |
+[![Website](https://img.shields.io/badge/rws8.tech-0A0A0A?style=flat-square&logo=rust&logoColor=white)](https://bohdantsap.com)
+[![Email](https://img.shields.io/badge/bohdaq@gmail.com-0A0A0A?style=flat-square&logo=gmail&logoColor=white)](mailto:me@bohdantsap.com)
 
 
 #### Tech
