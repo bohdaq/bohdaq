@@ -2,12 +2,6 @@
 
 Software engineer building cloud infrastructure and developer tools, mostly in **Java**, **Rust** and **TypeScript**.
 
-[![Website](https://img.shields.io/badge/rws8.tech-0A0A0A?style=flat-square&logo=rust&logoColor=white)](https://bohdantsap.com)
-[![Email](https://img.shields.io/badge/bohdaq@gmail.com-0A0A0A?style=flat-square&logo=gmail&logoColor=white)](mailto:me@bohdantsap.com)
-
-
-#### Tech
-
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
